@@ -1,0 +1,54 @@
+
+/* Universal Styles */
+
+@font-face {
+  font-family: "Mukta";
+  src: url(../fonts/Mukta-Regular.ttf)format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Mukta";
+  src: url(../fonts/Mukta-Bold.ttf)format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Mukta";
+  src: url(../fonts/Mukta-Light.ttf)format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Berylium";
+  src: url(../fonts/Beryliumbold.ttf)format('truetype');
+  font-weight: 700;
+}
+
+
+
+
+
+body {
+  font-family: "Mukta",sans-serif;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+
+}
+
+
+/* Header */
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  /*font-family: "Berylium";*/
+  letter-spacing: 0.25rem;
+}
+
+/*
+p {
+  font-weight: 400;
+}
+*/

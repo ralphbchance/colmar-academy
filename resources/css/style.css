@@ -26,29 +26,186 @@
 }
 
 
-
+html {
+  font-family: "Mukta",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  letter-spacing: .10rem;
+}
 
 
 body {
-  font-family: "Mukta",sans-serif;
-  font-size: 18px;
-  background-color: rgba(255, 255, 255, 1);
-  font-weight: 400;
+  line-height: 1.4;
+  background-image: url("../images/colmar-academy-website-bg.jpg");
+  background-position: 55% 15%;
 
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
 
 
 /* Header */
 
-h1 {
-  font-size: 4rem;
+#colmar {
   font-weight: 700;
-  /*font-family: "Berylium";*/
-  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
 }
 
-/*
-p {
-  font-weight: 400;
+#colmar a:hover {
+  font-size: 1.25rem;
+  text-decoration: underline;
 }
-*/
+
+#colmar a:active {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(244, 199, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  position: fixed;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+nav img {
+ height: 2rem;
+ margin-left: 1.5rem;
+}
+
+nav li {
+  display: inline;
+  margin-left: 1rem;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+li a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+li a:active {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+}
+
+.icon-menu {
+  display: none;
+}
+
+/* Main-Banner */
+
+ .main-banner {
+  display:flex;
+  justify-content: flex-start;
+  padding-top: 4rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+ .second-banner {
+ display:flex;
+ justify-content: flex-start;
+ padding-top: rem;
+ width: 100%;
+ background-color: rgba(255, 255, 255, .5);
+}
+
+.banner-left {
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+
+ .second-banner-left {
+    width: 57.8%;
+    margin: 2rem 1.5rem;
+}
+
+.banner-left img {
+    width: 100%;
+}
+
+.second-banner-left img {
+    width: 100%;
+}
+
+.banner-right {
+    padding-top: 6rem;
+    width: 40%;
+    margin: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.headline2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: -1rem;
+}
+
+.subtext {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(64,64,64, 1);
+}
+
+
+.button {
+  margin-top: 1.25rem;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: .5em;
+  width: 22rem;
+  letter-spacing: .12rem;
+  background-color: rgba(244, 199, 0, 1);
+}
+
+.button a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 1);
+}
+
+  .button a:active {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+}
+
+/* School Information Banner (second-banner)  */
+
+.sub-headings {
+  font-size: 2.75rem;
+  font-weight: 700;
+
+}
+
+ .sub-hs-paragraph {
+  font-size: 1.5rem;
+  color: rgba(64,64,64, 1);
+}

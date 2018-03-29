@@ -119,41 +119,28 @@ li a:active {
  .main-banner {
   display:flex;
   justify-content: flex-start;
-  padding-top: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 1.7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   width: 100%;
   background-color: rgba(255, 255, 255, .5);
-}
 
- .second-banner {
- display:flex;
- justify-content: flex-start;
- padding-top: rem;
- width: 100%;
- background-color: rgba(255, 255, 255, .5);
 }
 
 .banner-left {
     width: 60%;
-    margin: 2rem 1.5rem;
-}
-
- .second-banner-left {
-    width: 57.8%;
-    margin: 2rem 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .banner-left img {
     width: 100%;
 }
 
-.second-banner-left img {
-    width: 100%;
-}
 
-.banner-right {
-    padding-top: 6rem;
-    width: 40%;
-    margin: 2rem 1.5rem;
+.banner-right-side {
+    padding-top: 11rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -184,6 +171,7 @@ li a:active {
   width: 22rem;
   letter-spacing: .12rem;
   background-color: rgba(244, 199, 0, 1);
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .button a:hover {
@@ -197,15 +185,117 @@ li a:active {
     font-size: 1.5rem;
 }
 
-/* School Information Banner (second-banner)  */
 
-.sub-headings {
+ /* School Information Banner (second-banner)  */
+
+
+ .second-banner {
+
+ display:flex;
+ justify-content: flex-start;
+ padding-top: 2rem;
+ margin-left: 1.5rem;
+ width: 100%;
+ background-color: rgba(255, 255, 255, .5);
+
+ }
+
+
+.second-banner-left {
+    width: 60%;
+
+}
+
+
+ .second-banner-left img {
+    width: 100%;
+ }
+
+
+
+.second-to-fourth-banner-headings {
+  margin-top: 1.2rem;
   font-size: 2.75rem;
   font-weight: 700;
 
 }
 
  .sub-hs-paragraph {
-  font-size: 1.5rem;
+   margin-top: .5rem;
+   font-size: 1.5rem;
   color: rgba(64,64,64, 1);
+}
+
+.second-banner-right {
+
+    width: 40%;
+    padding-left: rem;
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.second-banner-right-links {
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem 0rem 1.5rem;
+
+}
+
+#oliver {
+
+    background-color: rgba(244, 199, 0, 1);
+    color:;
+
+}
+
+
+ .second-banner-right-links-copy span a{
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: rgba(128, 128, 128, 1);
+
+}
+
+.second-banner-right-links img {
+  margin: 1rem 0rem 1rem 1rem;
+  margin-top:1rem;
+  height: auto;
+  width: 35%;
+}
+
+.second-banner-right-links-copy  h4{
+    color: rgba(0, 0, 0, 1);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.second-banner-right-links-copy  p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: rgba(128,128,128, 1);
+}
+
+
+.second-banner-right-links-copy {
+    width: 65%;
+    padding-left: 2rem;
+}
+
+.button2 a:hover {
+  font-weight: 400;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 1);
+}
+
+  .button2 a:active {
+    color: rgba(244, 199, 0, 1);
+    font-size: 1.5rem;
+}
+
+
+.img-mobile {
+    display: none;
 }

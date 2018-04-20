@@ -813,10 +813,12 @@ nav.mobile {
 footer {
   border-top: 1px solid rgba(240, 240, 240, 1);
   height: 3.5rem;
+  background-color: rgba(244, 199, 0, 1);
 }
 
 
 footer p {
+  margin-top: 8px;
   padding-left: 24px;
   padding-right: 24px;
   color: rgba(64, 64, 64, 1);
@@ -838,6 +840,7 @@ nav {
 
 
 .footer-nav a {
+  margin-top: 10px;
   display: inline-block;
   padding-right: 16px;
   color: rgba(64, 64, 64, 1);
@@ -876,7 +879,7 @@ nav {
 
 
   footer p {
-    padding-left: 72px;
+
     padding-top: 16px;
     padding-bottom: 16px;
   }

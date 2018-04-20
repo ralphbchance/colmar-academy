@@ -704,14 +704,15 @@ nav.mobile {
 /* Thesis Section */
 
 
-/*@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
    .thesis-h2 {
      width: 100%;
      margin: auto;
      text-align: center;
      margin-bottom: 0px;
 }
-}*/
+}
+
 
 
 @media only screen and (max-width: 480px) {
@@ -720,6 +721,7 @@ nav.mobile {
      margin: auto;
      text-align: center;
      margin-bottom: 16px;
+}
 }
 
 

@@ -535,13 +535,16 @@ nav.mobile {
     margin-top: 12px;
     margin-left: 16px;
   }
-  .content h6{
+
+  .content h6 {
    font-size: 1.5rem;
 
   }
+
   .content p {
     font-size: 1.2rem;
   }
+
   .content a {
     font-size: 1.2rem;
 
@@ -701,14 +704,14 @@ nav.mobile {
 /* Thesis Section */
 
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
    .thesis-h2 {
      width: 100%;
      margin: auto;
      text-align: center;
      margin-bottom: 0px;
 }
-}
+}*/
 
 
 @media only screen and (max-width: 480px) {
@@ -718,7 +721,7 @@ nav.mobile {
      text-align: center;
      margin-bottom: 16px;
 }
-}
+
 
 
 .flex {
@@ -772,7 +775,7 @@ nav.mobile {
 }
 
 
-   media only screen and (max-width: 480px) {
+   @media only screen and (max-width: 480px) {
   .flex .right-section {
     display: none;
   }

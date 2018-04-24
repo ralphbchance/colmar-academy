@@ -279,10 +279,7 @@ nav.mobile {
   font-size: 1.5rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
-}
 
-.button:visited {
-  background-color:  rgba(244, 199, 0, 1);
 }
 
 
@@ -336,7 +333,7 @@ nav.mobile {
 @media only screen and (max-width: 480px) {
   .tagline a {
     width: 100%;
-    background-color: rgba(244, 199, 0, 1);
+
   }
 
   h1 {
@@ -366,9 +363,26 @@ nav.mobile {
     background-color: rgba(244, 199, 0, 1);
   }
 
-  .button:hover a{
-    background-color: rgba(240, 240, 240, 1);
+  .button a:hover {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+
+  }
+
+
+  .button:hover {
+    background-color:  rgba(240, 240, 240, 1);
     transition: .3s linear;
+
+  }
+
+    .button a:active {
+
+      color: rgba(255, 255, 255, 1);
+      font-size: 1.5rem;
+
   }
 }
 
@@ -748,10 +762,10 @@ nav.mobile {
 }
 
 
-.thesis p {
-  padding-top: 16px;
+/*.thesis p {
+  padding-top: 32px;
   padding-bottom: 0px;
-}
+}*/
 
 
 .thesis h6 {
@@ -786,6 +800,8 @@ nav.mobile {
  color: rgba(255, 255, 255, 1);
 
 }
+
+
 
 
    @media only screen and (max-width: 480px) {
@@ -823,7 +839,7 @@ footer {
 
 
 footer p {
-  margin-top: 8px;
+  margin-top: 10px;
   padding-left: 24px;
   padding-right: 24px;
   color: rgba(64, 64, 64, 1);
@@ -834,7 +850,8 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: .75rem;
+  margin-top: 12px;
+
 }
 
 

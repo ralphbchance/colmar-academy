@@ -130,8 +130,9 @@ header .container {
 
 
 .logo img {
-  height: 32px;
-  padding-left: 16px;
+  height:32px;
+  padding-left:16px;
+
 }
 
 
@@ -278,6 +279,10 @@ nav.mobile {
   font-size: 1.5rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
+}
+
+.button:visited {
+  background-color:  rgba(244, 199, 0, 1);
 }
 
 

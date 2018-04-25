@@ -170,6 +170,7 @@ nav {
   padding-right: 16px;
   color: rgba(0, 0, 0, 1);
   font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -283,17 +284,43 @@ nav.mobile {
 }
 
 
-.button:hover {
+/*.button:hover {
   background-color:  rgba(240, 240, 240, 1);
   transition: .3s linear;
 
-}
+}*/
 
   .button a:active {
 
     color: rgba(255, 255, 255, 1);
     font-size: 1.5rem;
 
+}
+
+.social {
+  display: flex;
+  padding: 0.75rem 0rem 0.75rem 0rem;
+  margin-right: 5rem;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+
+}
+
+.social a:hover {
+
+  color: rgba(0, 0, 0, 1);
+
+}
+
+.social a{
+font-size: 1rem;
+color: rgba(128, 128, 128, 1);
+
+}
+.popup {
+  font-size: 1rem;
 }
 
 
@@ -372,18 +399,22 @@ nav.mobile {
   }
 
 
-  .button:hover {
+  /*.button:hover {
     background-color:  rgba(240, 240, 240, 1);
     transition: .3s linear;
 
-  }
+  }*/
 
     .button a:active {
 
       color: rgba(255, 255, 255, 1);
       font-size: 1.5rem;
+}
 
-  }
+      .social {
+        display: none;
+
+      }
 }
 
 

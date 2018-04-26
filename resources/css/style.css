@@ -284,13 +284,7 @@ nav.mobile {
 }
 
 
-/*.button:hover {
-  background-color:  rgba(240, 240, 240, 1);
-  transition: .3s linear;
-
-}*/
-
-  .button a:active {
+   .button a:active {
 
     color: rgba(255, 255, 255, 1);
     font-size: 1.5rem;
@@ -318,9 +312,6 @@ nav.mobile {
 font-size: 1rem;
 color: rgba(128, 128, 128, 1);
 
-}
-.popup {
-  font-size: 1rem;
 }
 
 

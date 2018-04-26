@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,10 +17,10 @@
 
     <body>
       <header>
-        <div class="container">
+        <div class="container" role="presentation">
           <div class="logo">
             <img src="./resources/images/ic-logo.svg" alt="logo of Colmar Academy">
-            <span class="colmar"><a href="#">COLMAR ACADEMY</a></span>
+            <span class="colmar" role="presentation"><a href="#">COLMAR ACADEMY</a></span>
           </div>
           <nav class="desktop">
             <a href="#">ON CAMPUS</a>
@@ -39,21 +40,21 @@
               <!-- Main Banner Section  -->
 
       <div class="main-banner">
-        <div class="container">
+        <div class="container" role="presentation">
           <div class="left-section">
-            <img src="./resources/images/banner.jpg" alt="students studing outside">
+            <img src="./resources/images/banner.jpg" alt="students studying outside">
           </div>
-          <div class="right-section ">
-            <div class="tagline">
+          <div class="right-section">
+            <div role="presentation" class="tagline" >
               <h1>Learn something <br> new everyday</h1>
               <h4>Expand your mind, spirit,<br>become stronger now.</h4>
-              <h4 class="button"><a href="https://www.google.com/" target="_blank">Start Here</a></h4>
+              <h4 aria-label="link" class="button"><a href="#">Start Here</a></h4>
             </div>
-            <div class="social">
-              <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook fa-2x"></i></a>
-              <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a>
-              <a href="https://www.pinterest.com/" target="_blank" title="Pinterest"><i class="fa fa-pinterest fa-2x"></i></a>
-              <a href="https://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+            <div class="social" aria-label="links">
+              <a href="#" title="Facebook"><i class="fa fa-facebook fa-2x" alt="facebook icon"></i></a>
+              <a href="#" title="Instagram"><i class="fa fa-instagram fa-2x" alt="instagram icon"></i></a>
+              <a href="#" title="Pinterest"><i class="fa fa-pinterest fa-2x" alt="pinterest icon"></i></a>
+              <a href="#" title="Twitter"><i class="fa fa-twitter fa-2x" alt="twitter icon"></i></a>
             </div>
           </div>
         </div>
@@ -68,7 +69,7 @@
           <p>"I tell prospects to always practice for the job they are looking to
               get hired for.To practice several hours everday,to hone their skills,
               so when they are hired they will be an asset to their employer,future employers and to their own business."</p>
-          <span>Emmanual, Sr Stratagist at Hiring.com</span>
+          <span aria-label="Stratagist">Emmanual, Sr Stratagist at Hiring.com</span>
         </div>
 
         <div class="right-section">
@@ -107,78 +108,78 @@
             <!-- Learning and  Courses Section -->
 
       <div class="learning">
-        <div class="container">
+        <div class="container" role="presentation">
           <div class="headline"><h2>Start learning</h2></div>
            <div class="courses-grid">
 
-             <div class="course">
-              <div class="course-img">
+             <div class="course" role="presentation">
+              <div class="course-img" role="presentation">
                 <img src="./resources/images/course-software.jpg" alt="Software engineering">
               </div>
               <div class="course-content">
-                <h6><a href="#">Software Engineering</a></h6>
+                <h6 aria-label="link"><a href="#">Software Engineering</a></h6>
                 <span>COURSES</span>
                 <p>Web Development, Mobile Development, iOT, APIs</p>
               </div>
             </div>
 
-            <div class="course">
-              <div class="course-img">
+            <div class="course" role="presentation">
+              <div class="course-img" role="presentation">
                 <img src="./resources/images/course-computer-art.jpg" alt="Computer art">
               </div>
               <div class="course-content">
-                <h6><a href="#">Computer Art</a></h6>
+                <h6 aria-label="link"><a href="#">Computer Art</a></h6>
                 <span>COURSES</span>
                 <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
               </div>
             </div>
 
-            <div class="course">
-              <div class="course-img">
+            <div class="course" role="presentation">
+              <div class="course-img" role="presentation">
                 <img src="./resources/images/course-design.jpg" alt="Design">
               </div>
               <div class="course-content">
-                <h6><a href="#">Design</a></h6>
+                <h6 aria-label="link"><a href="#">Design</a></h6>
                 <span>COURSES</span>
                 <p>User Experience Design, User Research, Visual Design</p>
               </div>
             </div>
 
-            <div class="course">
-              <div class="course-img">
+            <div class="course" role="presentation">
+              <div class="course-img" role="presentation">
                 <img src="./resources/images/course-data.jpg" alt="Data">
               </div>
               <div class="course-content">
-                <h6><a href="#">Data</a></h6>
+                <h6 aria-label="link"><a href="#">Data</a></h6>
                 <span>COURSES</span>
                 <p>Data Science, Big Data, SQL, Data Visualization</p>
               </div>
             </div>
 
-            <div class="course">
-              <div class="course-img">
+            <div class="course" role="presentation">
+              <div class="course-img" role="presentation">
                 <img src="./resources/images/course-business.jpg" alt="Business">
               </div>
               <div class="course-content">
-                <h6><a href="#">Business</a></h6>
+                <h6 aria-label="link"><a href="#">Business</a></h6>
                 <span>COURSES</span>
                 <p>Product Development, Business Development, Startup</p>
               </div>
             </div>
 
-            <div class="course">
-              <div class="course-img">
+            <div class="course" role="presentation">
+              <div class="course-img" role="presentation">
                 <img src="./resources/images/course-marketing.jpg" alt="Marketing">
               </div>
               <div class="course-content">
-                <h6><a href="#">Marketing</a></h6>
+                <h6 aria-label="link"><a href="#">Marketing</a></h6>
                 <span>COURSES</span>
                 <p>Analytics, Content Marketing, Mobile Marketing</p>
               </div>
             </div>
           </div>
 
-          <div class="courses-list">
+          <div class="courses-list" role="complementary">
             <a href="#">Software Engineering</a>
             <a href="#">Computer Art</a>
             <a href="#">Design</a>
@@ -191,10 +192,10 @@
 
                <!-- Thesis Section -->
 
-      <div class="thesis">
+      <div class="thesis" role="presentation">
         <div class="thesis-h2"><h2>Thesis exhibit</h2></div>
-         <div class="flex container">
-          <div class="left-section">
+         <div class="flex container" role="presentation">
+          <div class="left-section" role="presentation">
             <video autoplay controls muted loop>
               <source src="./resources/videos/thesis.mp4" type="video/mp4">
             </video>
@@ -206,14 +207,14 @@
             <div class="first-info lecture box">
               <img src="./resources/images/thesis-fisma.jpg" alt="Fisma Design">
               <div class="content">
-                <h6 id="fisma-nowandthen"><a href="#">Fisma: Design and Prototype</a></h6>
+                <h6 id="fisma-nowandthen" role="presentation"><a href="#">Fisma: Design and Prototype</a></h6>
                 <p>Designer showcase of new<br /> prototype product</p>
               </div>
             </div>
             <div class="info box">
               <img src="./resources/images/thesis-now-and-then.jpg" alt="photo of New York">
               <div class="content">
-                <h6 id="fisma-nowandthen"><a href="#">Now and then</a></h6>
+                <h6 id="fisma-nowandthen" role="presentation"><a href="#">Now and then</a></h6>
                 <p>Research study about New York</p>
               </div>
            </div>
@@ -223,9 +224,9 @@
              <!-- Footer Section -->
 
       <footer>
-        <div class="container">
+        <div class="container" role="presentation">
           <p>© 2016 Colmar Academy. All rights reserved.</p>
-          <nav class="footer-nav">
+          <nav class="footer-nav" role="presentation">
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
           </nav>
